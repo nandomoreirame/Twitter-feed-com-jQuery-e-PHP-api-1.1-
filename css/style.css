@@ -1,0 +1,68 @@
+/**
+ * Tutorial: Twitter feed com jQuery e PHP (api 1.1)
+ *
+ * @author   Fernando Moreira <f@nandomoreria.me>
+ * @license  MIT License
+ * @link     http://nandomoreira.me/twitter-feed-com-jquery-e-php-api-1-1/
+ */
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:400,700");
+::selection {
+  background: #4b4c4e;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #4b4c4e;
+  color: #fff;
+  text-shadow: none;
+}
+
+body {
+  background: #dddddd url("../images/bg.png");
+  font-family: "Droid Sans", Arial, sans-serif;
+  color: #4b4c4e;
+}
+
+.page-header h1 {
+  font-size: 2.2em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 2px #fff;
+}
+
+.tweets-box {
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 2px 2px #ccc;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 3px;
+}
+.tweets-box .tweets-header {
+  padding: 20px 20px 10px;
+  background-color: #eee;
+}
+.tweets-box .tweets-header h3 {
+  margin-top: 0;
+}
+.tweets-box #tweets {
+  padding: 10px;
+  overflow-x: hidden;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.tweets-box #tweets .media {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+.tweets-box #tweets .media .media-heading {
+  display: block;
+  margin-bottom: 5px;
+}
+.tweets-box #tweets .media .media-heading small {
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 10px;
+}
